@@ -20,6 +20,15 @@ This happens in the data-preprocess.ipynb file! It will remove, clean and reorga
 ## Graphing
 This happens in vis.py. Make sure you have the processed data, then run the script to see the visual!
 
+# Documentation
+## Data 
+All of our data was scraped from the [PullPush Reddit API](https://pullpush.io/). The scraping process is mostly documented in 'data collection unalive.ipynb' (the other scraping scripts are copies of this script, adjusted for the load of the other words). Since we are looking at every post mentioning killing-related words from 2019-2024 we need to, well, find every post!
+The data cleaning and preprocessing is described in data-preprocess.ipynb. Basically, we want to take our raw data and organize all of the text within these posts by keyword and date. This makes it a lot easier to look up (and graph).
+
+## Our Visualization
+
+## Limitations
+
 # FAQs
 ### I'm just here for the graph. What do I do?
 * Pull the repository and download the cleaned dataset from below. Then run vis.py!
