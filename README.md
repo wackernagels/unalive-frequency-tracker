@@ -21,6 +21,9 @@ This happens in the data-preprocess.ipynb file! It will remove, clean and reorga
 This happens in vis.py. Make sure you have the processed data, then run the script to see the visual!
 
 # FAQs
+### I'm just here for the graph. What do I do?
+* Pull the repository and download the cleaned dataset from below. Then run vis.py!
+
 ### Where are the datasets?
 * The datasets are too big for GitHub! You can access them here: [https://drive.google.com/drive/folders/1x9BlMWjyv8oDJ-HwZ9wzPe9eCyeId_vY?usp=sharing](https://drive.google.com/drive/folders/1x9BlMWjyv8oDJ-HwZ9wzPe9eCyeId_vY?usp=sharing)
 *   data: containing the raw data for each word
