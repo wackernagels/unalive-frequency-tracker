@@ -5,10 +5,10 @@ A project tracking usage and mentions of 'unalive' and other killing-related wor
 # Usage Instructions
 
 ## Required Packages
-* Selenium ([documentation](https://www.selenium.dev/documentation/)
-* Pandas ([documentation](https://pandas.pydata.org/docs/)
-* NumPy ([documentation](https://numpy.org/doc/stable/)
-* Plotly ([documentation](https://plotly.com/python/)
+* Selenium ([documentation](https://www.selenium.dev/documentation/))
+* Pandas ([documentation](https://pandas.pydata.org/docs/))
+* NumPy ([documentation](https://numpy.org/doc/stable/))
+* Plotly ([documentation](https://plotly.com/python/))
 *    Note that Plotly documentation will also talk about Dash. This project did NOT use Dash, and the time slider feature on the posts visualization is NOT supported on Dash!
 
 ## Webscraping
