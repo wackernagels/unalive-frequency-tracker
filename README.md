@@ -22,7 +22,7 @@ This happens in vis.py. Make sure you have the processed data, then run the scri
 
 # FAQs
 ### Where are the datasets?
-* The datasets are too big for GitHub! You can access them here:
+* The datasets are too big for GitHub! You can access them here: [https://drive.google.com/drive/folders/1x9BlMWjyv8oDJ-HwZ9wzPe9eCyeId_vY?usp=sharing](https://drive.google.com/drive/folders/1x9BlMWjyv8oDJ-HwZ9wzPe9eCyeId_vY?usp=sharing)
 *   data: containing the raw data for each word
 *   cleaned_data: the data post-processing
 
