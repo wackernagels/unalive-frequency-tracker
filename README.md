@@ -1,6 +1,6 @@
 # unalive-frequency-tracker
 
-A project tracking usage and mentions of 'unalive' and other killing-related words on r/offmychest, over time!
+A project tracking usage and mentions of 'unalive' and other killing-related words on r/offmychest, from 2019-2024!
 
 # Usage Instructions
 
