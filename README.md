@@ -15,10 +15,10 @@ A project tracking usage and mentions of 'unalive' and other killing-related wor
 All of our webscraping scripts will be in the scraping-scripts directory. We have one Jupyter Notebook script for each of 'unalive', 'kill', 'murder', and 'suicide', and each of these will generate a CSV file with post metadata from December 31 2018 to January 1 2025.
 
 ## Preprocessing
-This happens in the data-preprocess.ipynb file! It will remove, clean and reorganize our data into a more accessible format.
+This happens in the data-preprocess.ipynb file! It will remove, clean and reorganize our data into a more accessible format. You will need to have the raw data first for the script to work.
 
 ## Graphing
-This happens in vis.py. Just run the script to see the visual!
+This happens in vis.py. Make sure you have the processed data, then run the script to see the visual!
 
 # FAQs
 ### Where are the datasets?
