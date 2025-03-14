@@ -11,7 +11,8 @@ df['date']= pd.to_datetime(df["date"])
 postvis= make_subplots(rows=2,
                        cols=1,
                        vertical_spacing= 0.05,
-                       shared_xaxes=True)
+                       shared_xaxes=True,
+                       subplot_titles=("Word Usage Over Time", "Total Posts Per Day"))
 
 #adding in line plot format for unalive
 postvis.add_trace(
@@ -84,10 +85,12 @@ postvis.add_trace(
     row=2, col=1,
 )
 
+#changing second vis to bar stacking mode
 postvis.update_layout(barmode='stack')
 
+#formatting the visualization
 postvis.update_layout(
-    plot_bgcolor='#f4f4f4',
+    plot_bgcolor='#f4f4f4', #setting graph backgrouund color
     paper_bgcolor='white',
     #adding title to vis
     title= 'Number of Posts on r/offmychest Containing Killing-Related Words, 2019-2024',
@@ -103,7 +106,7 @@ postvis.update_layout(
         ),
         type="date"
     ),
-    #labeling axis
+    #labeling yaxes
     yaxis=dict(
         gridcolor='lightgrey',
         title=dict(
@@ -119,12 +122,6 @@ postvis.update_layout(
 )
 
 
-
-#-----------END updating postvis visuals---------
-
 #showing post vis
 #postvis.show()
 postvis.write_html("vis.html")
-
-#scatterplot to show frequency of words vs posts?
-#wordvis= px.scatter(df_bar, x="Fruit", y="Amount", color="City", barmode="group")
