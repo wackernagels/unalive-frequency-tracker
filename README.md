@@ -31,7 +31,7 @@ The data cleaning and preprocessing is described in data-preprocess.ipynb. Basic
 
 # FAQs
 ### I'm just here for the graph. What do I do?
-* Pull the repository and download the cleaned dataset from below. Then run vis.py!
+* Pull the repository and open vis.html!
 
 ### Where are the datasets?
 * The datasets are too big for GitHub! You can access them here: [https://drive.google.com/drive/folders/1x9BlMWjyv8oDJ-HwZ9wzPe9eCyeId_vY?usp=sharing](https://drive.google.com/drive/folders/1x9BlMWjyv8oDJ-HwZ9wzPe9eCyeId_vY?usp=sharing)
