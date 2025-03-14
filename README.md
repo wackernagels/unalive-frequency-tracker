@@ -26,8 +26,21 @@ All of our data was scraped from the [PullPush Reddit API](https://pullpush.io/)
 The data cleaning and preprocessing is described in data-preprocess.ipynb. Basically, we want to take our raw data and organize all of the text within these posts by keyword and date. This makes it a lot easier to look up (and graph).
 
 ## Our Visualization
+Since we're looking at the usage of words over time, we're depicting a line chart! Technically in Plotly we used a Scatterplot type object, since it has more potentially useful features such as line smoothing and trendlines, however it can also be used to make line charts. 
+We also decided to add in a second graph for people who are more interested in seeing how the frequencies of different words compare to each other in a specific span of time. This is a stacked bar chart that aggregates post counts for every day from 1/1/2019 to 12/31/2024. It might look a little ugly upon loading, but the range slider is very useful for zooming in to get a better look!
 
 ## Limitations
+* We'd like to implement some buttons in the future that will automatically set the range slider to specific years! Currently, however, we can't figure out how to make it work with two subplots.
+* Our graphs have data points for every day, and it makes it look a bit cluttered. Maybe later on we'll come up with a version that maps frequency on a monthly basis, or one with a nice trendline.
+* Looks like even though unalive has been growing in usage, it's still being used much less than other killing-related words. We'll have to experiment with different y-axis scales to find one that can show these small changes more clearly.
+
+## Future Additions?
+* Add a sentiment analysis feature!
+* Dark mode?
+* Dropdown menu with options for sampling frequency (daily, monthly, even hourly?)
+* Trendline overlay for our line graph
+* Range slider buttons?
+
 
 # FAQs
 ### I'm just here for the graph. What do I do?
